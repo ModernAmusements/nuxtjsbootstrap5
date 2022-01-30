@@ -1,5 +1,5 @@
 <template>
-	<header class="header bg-light shadow mb-3"
+	<header class="header bg-light shadow"
 		:class="{
 			'navbar-top':    scrollPosition < scrollOffset,
 			'navbar-scroll': scrollPosition > scrollOffset,
@@ -37,9 +37,8 @@
 				scrollPosition: 0,
 				menu: [
 					{ name: 'Overview', to: '#' },
-					{ name: 'Components', to: '#' },
-					{ name: 'Plugins', to: '#' },
-					{ name: 'Examples', to: '#' },
+					{ name: 'Components', to: '/components' },
+					{ name: 'Examples', to: '/examples' },
 					{ name: 'Support', to: '#' }
 				]
 			}
@@ -50,7 +49,7 @@
 			this.scrollPosition = window.scrollY
 			}
 		},
-		
+
 		mounted() {
 			this.updateScroll();
 			window.addEventListener('scroll', this.updateScroll);
