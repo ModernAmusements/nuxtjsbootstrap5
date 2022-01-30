@@ -1,4 +1,4 @@
-# Nuxt.js + Bootstrap 5 - Boilerplate
+# Nuxt.js + Bootstrap 5 
 
 [Nuxt.js](https://github.com/nuxt/nuxt.js)
 [Bootstrap 5](https://github.com/twbs/bootstrap)
@@ -12,9 +12,6 @@ Bootstrap Icons:  1.7.2
 ```
 
 ## 
-
-npm install --save @popperjs/core
-
 
 ## Build Setup
 ```

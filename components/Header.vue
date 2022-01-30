@@ -1,5 +1,5 @@
 <template>
-	<header class="header bg-light shadow"
+	<header class="header bg-light border-bottom"
 		:class="{
 			'navbar-top':    scrollPosition < scrollOffset,
 			'navbar-scroll': scrollPosition > scrollOffset,
@@ -36,10 +36,10 @@
 				scrollOffset:   100,
 				scrollPosition: 0,
 				menu: [
-					{ name: 'Overview', to: '#' },
+					{ name: 'Overview', to: '/overview' },
 					{ name: 'Components', to: '/components' },
 					{ name: 'Examples', to: '/examples' },
-					{ name: 'Support', to: '#' }
+					{ name: 'Pricing', to: '/pricing' }
 				]
 			}
 		},
