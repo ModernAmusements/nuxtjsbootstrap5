@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="card-footer bg-transparent border-top py-3">
-				<p class="text-muted m-0">Made with ❤️ by <a href="https://derianandre.com/">DerianAndre</a></p>
+				<p class="text-muted m-0">Test Content</p>
 			</div>
 		</div>
 	</div>
@@ -24,7 +24,7 @@
 
 <script>
 	export default {
-		
+
 	}
 </script>
 
